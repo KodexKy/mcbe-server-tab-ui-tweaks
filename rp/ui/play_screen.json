@@ -1,0 +1,37 @@
+{
+  // Select servers tab by default.
+  "world_navigation_tab": {
+    "$toggle_group_forced_index": 2
+  },
+  "server_navigation_tab": {
+    "$toggle_group_forced_index": 0
+  },
+
+  // Remove third party servers.
+  "servers_content_panel": {
+    "modifications": [
+      {
+        "control_name": "featured_servers_panel",
+        "operation": "remove"
+      },
+      {
+        "control_name": "more_servers_divider",
+        "operation": "remove"
+      }
+    ]
+  },
+  "server_content_area": {
+    "modifications": [
+      {
+        "control_name": "third_party_scrolling_panel",
+        "operation": "remove"
+      }
+    ]
+  },
+
+  // Make additional servers visible by default.
+  "server_content_area/additional_server_scrolling_panel": {
+    "visible": true,
+    "bindings": []
+  }
+}

@@ -1,0 +1,16 @@
+{
+   "format_version" : 1,
+   "header" : {
+      "name" : "Server Tab UI Tweaks 1.0.0",
+      "description" : "Disables the Featured Servers list.\nSets the Servers tab as the default for the Play screen.\nhttp://github.com/kodexky",
+      "uuid" : "23b64760-bc5a-4f00-b3c1-012a8feac2f5",
+      "version" : [ 1, 0, 0 ]
+   },
+   "modules" : [
+      {
+         "type" : "resources",
+         "uuid" : "a96c4f0e-915c-46ab-840e-5df1ea2970a7",
+         "version" : [ 1, 0, 0 ]
+      }
+   ]
+}
