@@ -1,10 +1,24 @@
 {
   // Select servers tab by default.
   "world_navigation_tab": {
-    "$toggle_group_forced_index": 2
+    "$toggle_group_forced_index": 2,
+    "$is_left_most_tab": false
   },
   "server_navigation_tab": {
-    "$toggle_group_forced_index": 0
+    "$toggle_group_forced_index": 0,
+    "$is_left_most_tab": true
+  },
+  "default_tab_navigation_panel_layout": {
+    "modifications": [
+      {
+        "control_name": "server_navigation_tab",
+        "operation": "move_front"
+      },
+      {
+        "control_name": "world_navigation_tab",
+        "operation": "move_back"
+      }
+    ]
   },
 
   // Disable server tab count badge.
