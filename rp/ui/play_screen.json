@@ -7,6 +7,11 @@
     "$toggle_group_forced_index": 0
   },
 
+  // Disable server tab count badge.
+  "tab_text_stack_panel/count_section/count_background_image/count": {
+    "ignored": "($count_text_name = '#server_world_item_count')"
+  },
+
   // Remove third party servers.
   "servers_content_panel": {
     "modifications": [
